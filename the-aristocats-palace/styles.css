@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "AstonScript";
+    src: url("./fonts/Aston Script.ttf");
+}
 body{
     background-color: white;
     /* font-family: "Segoe UI"; - colocar outra fonte */
@@ -25,6 +29,7 @@ header{
     z-index: 100;
     box-shadow: 0 4px 5px rgba(0,0,0, 0.5);
     width: 100%;
+    border-bottom: 2px solid #FFDB58;
 }
 
 .nav{
@@ -36,6 +41,8 @@ header{
 .logo{
     font-size: 1.5rem;
     font-weight: bold;
+    font-family: "AstonScript";
+    color: #FFDB58;
 }
 nav{
     display: flex;
