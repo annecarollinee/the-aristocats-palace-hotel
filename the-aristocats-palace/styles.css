@@ -43,6 +43,9 @@ header{
     font-weight: bold;
     font-family: "AstonScript";
     color: #FFDB58;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 nav{
     display: flex;
@@ -59,6 +62,5 @@ nav a:hover{
     color: #ffec6d;
 }
 .logoimg{
-    width: 75px;
-    padding-bottom: 15px;
+    width: 80px;
 }
