@@ -65,5 +65,5 @@ nav a:hover{
     width: 80px;
 }
 .hero{
- background: linear-gradient(rgba(5, 5, 98, 0.5)), url(imagens/hotel.png) ;
+    background: linear-gradient(rgba(5, 5, 98, 0.5)), url(imagens/hotel.png) ;
 }
