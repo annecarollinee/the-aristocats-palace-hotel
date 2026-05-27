@@ -91,3 +91,7 @@ nav a:hover{
     transition: background-color 0.5s;
     transition: scale 0.5s;
 }
+.botao:hover{
+    background-color: #465dc7;
+    scale: 0.9;
+}
