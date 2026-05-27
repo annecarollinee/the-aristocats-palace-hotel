@@ -7,9 +7,13 @@
     font-family: "AstonScript";
     src: url("./fonts/Aston Script.ttf");
 }
+@font-face {
+    font-family: "Recoleta";
+    src: url(fonts/Recoleta-RegularDEMO.otf);
+}
 body{
     background-color:  #fff3c6;
-    /* font-family: "Segoe UI"; - colocar outra fonte */
+    font-family: "Recoleta";
     line-height: 1.6;
     /* color: #333; mudar cor? */
 }
