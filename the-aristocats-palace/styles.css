@@ -71,7 +71,7 @@ nav a:hover{
 }
 .hero{
     background: linear-gradient(rgba(5, 5, 98, 0.6),rgba(5, 5, 98, 0.1)), url(imagens/hotel.png);
-     height: 600px;
+     height: 700px;
     display: flex;
    justify-content: center; 
    align-items: center;
