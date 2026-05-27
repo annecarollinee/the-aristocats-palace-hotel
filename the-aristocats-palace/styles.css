@@ -80,18 +80,3 @@ nav a:hover{
    background-size: cover;
    background-position: center;
 }
-.botao{
-    background-color: #2d2d90;
-    color: white;
-    padding: 1rem 2rem;
-    border-color: #ffc800;
-    border-radius: 7px;
-    font-size: 15px;
-    cursor: pointer;
-    transition: background-color 0.5s;
-    transition: scale 0.5s;
-}
-.botao:hover{
-    background-color: #3a4dfe;
-    scale: 0.9s;
-}
