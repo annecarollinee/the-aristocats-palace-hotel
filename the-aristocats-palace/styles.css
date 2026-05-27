@@ -54,6 +54,7 @@ header{
 nav{
     display: flex;
     gap: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav a {
@@ -69,5 +70,13 @@ nav a:hover{
     width: 80px;
 }
 .hero{
-    background: linear-gradient(rgba(5, 5, 98, 0.5),rgba(5, 5, 98, 0.1)), url(imagens/hotel.png);
+    background: linear-gradient(rgba(5, 5, 98, 0.6),rgba(5, 5, 98, 0.1)), url(imagens/hotel.png);
+     height: 600px;
+    display: flex;
+   justify-content: center; 
+   align-items: center;
+   color: white;  
+   text-align: center;
+   background-size: cover;
+   background-position: center;
 }
