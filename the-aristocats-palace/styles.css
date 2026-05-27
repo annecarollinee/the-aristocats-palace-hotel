@@ -80,7 +80,15 @@ nav a:hover{
    background-size: cover;
    background-position: center;
 }
+<<<<<<< HEAD
 . hero-content h1{
        font-size: 3rem;
     margin-bottom: 2rem;
+=======
+.section-title{
+        text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #2c1810 ;
+>>>>>>> 4a8ffe6530640ee8caeb4ab4b143099b17038471
 }
