@@ -67,7 +67,7 @@ nav a:hover{
 }
 .hero{
     background: linear-gradient(rgba(5, 5, 98, 0.6),rgba(5, 5, 98, 0.1)), url(imagens/hotel.png);
-    height: 700px;
+    height: 900px;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -82,7 +82,7 @@ nav a:hover{
     padding: 1rem 2rem;
     border-color: #ffc800;
     border-radius: 7px;
-    font-size: 15px;
+    font-size: 20px;
     cursor: pointer;
     transition: background-color 0.5s;
     transition: scale 0.5s;
@@ -94,8 +94,10 @@ nav a:hover{
 .hero-content h1{
     font-size: 3rem;
     margin-bottom: 1rem;
+    text-shadow: 2px 2px 8px #000080;
 }
 .hero-content p {
     font-size: 1.3rem;
     margin-bottom: 2rem;
+    text-shadow: 2px 2px 5px #000;
 }
