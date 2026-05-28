@@ -79,6 +79,7 @@ nav a:hover{
 .botao{
     background-color: #2d2d90;
     color: white;
+    font-family:Arial, Helvetica, sans-serif;
     padding: 1rem 2rem;
     border-color: #ffc800;
     border-radius: 7px;
