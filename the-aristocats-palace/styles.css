@@ -102,3 +102,43 @@ nav a:hover{
     background-color: #465dc7;
     scale: 0.9;
 }
+.quartos{
+    padding: 4rem 0;
+    /* pensar em cor */
+    background-color: #ffecbb;
+}
+.section-title{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #000;
+}
+.quart{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    /* QUEBRA DE LINHA */
+    flex-wrap: wrap;
+}
+.quarto{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    /*FLEX 0: elemento não se adapta*/
+    /*FLEX 1: elemento se adapta*/
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    transition: transform 0.3s;
+}
+.quarto:hover{
+    /*DESCOLA O CARD VERTICALMENTE*/
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+.quarto img{
+    width: 100%;
+    height: 200px;
+     /*Cobre a div*/
+    object-fit: cover;
+}
