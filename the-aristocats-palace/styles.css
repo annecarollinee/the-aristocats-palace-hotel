@@ -76,6 +76,16 @@ nav a:hover{
     background-size: cover;
     background-position: center;
 }
+.hero-content h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 8px #000080;
+}
+.hero-content p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 5px #000;
+}
 .botao{
     background-color: #2d2d90;
     color: white;
@@ -91,14 +101,4 @@ nav a:hover{
 .botao:hover{
     background-color: #465dc7;
     scale: 0.9;
-}
-.hero-content h1{
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    text-shadow: 2px 2px 8px #000080;
-}
-.hero-content p {
-    font-size: 1.3rem;
-    margin-bottom: 2rem;
-    text-shadow: 2px 2px 5px #000;
 }
