@@ -220,13 +220,8 @@ nav a:hover{
     gap: 20px;
     background-color: #080850;
     border-radius: 10px;
-<<<<<<< HEAD
     width: 100px;     
     min-height: 80px; 
-=======
-    width: 63rem;
-    height: 200px;      
->>>>>>> 1e985c4bac6fb4e24c17e8c6fb311f1bdeab4398
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
     transition: transform 0.3s;
     flex: 1 1 500px; 
@@ -237,13 +232,8 @@ nav a:hover{
     box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 .avaliacao h3{
-<<<<<<< HEAD
      color: white;
     margin-bottom: 10px;
-=======
-    color: #000;
-    margin-bottom: 5px;
->>>>>>> 1e985c4bac6fb4e24c17e8c6fb311f1bdeab4398
 }
 .avaliacao img{
     width: 100px;
@@ -277,7 +267,7 @@ nav a:hover{
     flex: 1;
 }
 .sobre-img img{
-    height: 495px;
+    height: 650px;
     width: 640px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgb(0, 0, 0, 0.4);
@@ -292,9 +282,10 @@ nav a:hover{
     text-align: justify;
 }
 .sobre-texto h2{
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-family: "AstonScript";
     color: #020234;
+    margin-top: 5px;
 }
 .sobre-texto p{
     padding: 10px;
