@@ -105,34 +105,32 @@ nav a:hover{
 }
 .quartos{
     padding: 4rem 0;
-    /* pensar em cor */
+    color: #020234;
 }
 .section-tittle{
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 3.5rem;
     margin-bottom: 2.5rem;
     color: #000000 ;
+    padding: 1rem;
 }
 .quart{
     display: flex;
     gap: 2rem;
     justify-content: center;
-    /* QUEBRA DE LINHA */
     flex-wrap: wrap;
 }
 .quarto{
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    /*FLEX 0: elemento não se adapta*/
-    /*FLEX 1: elemento se adapta*/
     flex: 1;
     min-width: 300px;
     max-width: 500px;
     transition: transform 0.3s;
 }
 .quarto:hover{
-    /*DESCOLA O CARD VERTICALMENTE*/
     transform: translateY(-10px);
     box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
@@ -165,31 +163,20 @@ nav a:hover{
     display: flex;
     gap: 2rem;
     justify-content: center;
-    /* QUEBRA DE LINHA */
     flex-wrap: wrap;
 }
 .servico{
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    /*FLEX 0: elemento não se adapta*/
-    /*FLEX 1: elemento se adapta*/
     flex: 1;
     min-width: 300px;
     max-width: 500px;
     transition: transform 0.3s;
 }
 .servico:hover{
-    /*DESCOLA O CARD VERTICALMENTE*/
     transform: translateY(-10px);
     box-shadow: 0 6px 12px rgba(0,0,0,0.2);
-}
-.section-tittle-servicos{
-    padding-top: 6rem;
-    text-align: center;
-    font-size: 3.5rem;
-    margin-bottom: 2.3rem;
-    color: #000000 ;
 }
 .servico-content{
     padding: 1rem;
@@ -210,4 +197,51 @@ nav a:hover{
     border-radius: 10px;
      /*Cobre a div*/
     object-fit: cover;
+}
+.pag{
+    color: #080850;
+    margin-top: auto;
+    align-self: center;
+}
+.avaliacoess{
+    padding: 4rem 1;
+    color: #020234;
+}
+.avaliacoes{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.avaliacao{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border-radius: 10px;
+    flex: 1;
+    width: 500px;
+    min-height: 150px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+.avaliacao:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+.avaliacao h3{
+    color: #000800;
+    margin-bottom: 10px;
+}
+.avaliacao img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.avaliacao-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #000;
 }
