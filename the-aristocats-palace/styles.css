@@ -71,6 +71,7 @@ nav a:hover{
 }
 .logoimg{
     width: 80px;
+
 }
 .hero{
     background: linear-gradient(rgba(5, 5, 98, 0.6),rgba(5, 5, 98, 0.1)), url(imagens/hotel.png);
@@ -348,11 +349,18 @@ nav a:hover{
 .fundador-texto h2{
     font-size: 2.5rem;
     color: #1d084d;
+    padding-bottom: 3rem;
+    margin-left: 3rem;
 }
 .fundador-texto p{
     color: #08031a;
     font-size: 1.1rem;
-    margin-right: 12px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.frase{
+    font-style: italic;
+    padding: 1rem;
 }
 .footer{
     background-color: #080850;
@@ -382,6 +390,8 @@ nav a:hover{
 }
 
 
+
+
 /* CONFIGURANDO A RESPONSIVIDADE */
 /* MEDIA QUERY: É um recurso do CSS para ajustar elementos conforme a largura da tela */
 /* O BREAKPOINT PARA UM CELULAR É APROXIMADAMENTE 768px */
@@ -392,9 +402,6 @@ nav a:hover{
     .footer-content{
         flex-direction: column;
         align-items: flex-start;
-    }
-    .logo{
-        font-size: 1rem;
     }
     .menu{
         gap: 1rem;
