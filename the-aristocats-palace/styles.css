@@ -420,7 +420,17 @@ nav a:hover{
     font-size: 1.1rem;
     text-align: justify;
 }
-
+.quarto01-img{
+    flex: 1;
+}
+.quarto01-img img{
+    height: 495px;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.4);
+    margin-left: 30px;
+    margin-top: 8px;
+}
 /* CONFIGURANDO A RESPONSIVIDADE */
 /* MEDIA QUERY: É um recurso do CSS para ajustar elementos conforme a largura da tela */
 /* O BREAKPOINT PARA UM CELULAR É APROXIMADAMENTE 768px */
