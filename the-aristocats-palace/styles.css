@@ -389,7 +389,18 @@ nav a:hover{
     border-top: 1px solid  #ffc800;
 }
 
-
+.quarto01-flex{
+    display: flex;
+    gap: 0.1rem;
+    align-items: center;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    flex: 1;
+    min-width: 1000px;
+    max-height: 900px;
+    transition: transform 0.3s;
+}
 
 
 /* CONFIGURANDO A RESPONSIVIDADE */
