@@ -362,6 +362,33 @@ nav a:hover{
     font-style: italic;
     padding: 1rem;
 }
+
+
+.area-anuncios{
+    width:100%;
+    padding:50px 0;
+    text-align:center;
+}
+
+.anuncios{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.anuncios aside{
+    width:80%;
+    max-width:900px;
+}
+
+.anuncios aside img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+
+
 .footer{
     background-color: #080850;
     color: white;
