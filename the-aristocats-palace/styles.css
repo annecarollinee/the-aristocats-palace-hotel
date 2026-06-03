@@ -441,6 +441,11 @@ nav a:hover{
     margin-left: 50px;
    
 }
+.preco-detalhes{
+  font-size: 1rem;
+  color: #080850;
+  font-weight: bold;
+}
 /* CONFIGURANDO A RESPONSIVIDADE */
 /* MEDIA QUERY: É um recurso do CSS para ajustar elementos conforme a largura da tela */
 /* O BREAKPOINT PARA UM CELULAR É APROXIMADAMENTE 768px */
